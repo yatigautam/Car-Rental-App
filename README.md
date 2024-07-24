@@ -1,10 +1,10 @@
-Car Rental Application
-Overview
-The Car Rental Application is designed to facilitate car rentals for regular users and provide management capabilities for admin users. The system supports the following functionalities:
+Car Rental Application\\
+Overview\\
+The Car Rental Application is designed to facilitate car rentals for regular users and provide management capabilities for admin users. The system supports the following functionalities:\
 
-User Authentication: Both regular users and admin users can log in using their email and password.
-Car Management: Admin users can add, update, and delete cars from the inventory.
-Rental Management: Users can search for available cars, view rental agreements, and manage their rentals.
+User Authentication: Both regular users and admin users can log in using their email and password.\
+Car Management: Admin users can add, update, and delete cars from the inventory.\
+Rental Management: Users can search for available cars, view rental agreements, and manage their rentals.\
 Features
 Regular User Flow
 Login: Regular users can log in with valid credentials.
