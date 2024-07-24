@@ -1,0 +1,40 @@
+/* src/components/CarList.css */
+.car-list {
+    padding: 20px;
+  }
+  
+  .car-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .car-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-list li {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .car-list h3 {
+    margin-top: 0;
+  }
+  
+  .car-list button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .car-list button:hover {
+    background-color: #218838;
+  }
+  

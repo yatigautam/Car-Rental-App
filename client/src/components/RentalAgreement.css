@@ -1,0 +1,10 @@
+/* src/components/RentalAgreement.css */
+.rental-agreement {
+    padding: 20px;
+  }
+  
+  .rental-agreement h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

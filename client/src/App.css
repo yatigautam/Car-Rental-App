@@ -1,0 +1,138 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+/* Styling for the header (if used) */
+.App-header {
+  background-color: #333;
+  min-height: 10vh; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add styles for the Navbar */
+.navbar {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* General styling for pages */
+.landing-page, .login, .car-list, .rental-agreement, .admin-dashboard {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px; /* Center the content */
+}
+
+/* Adjust heading styles */
+h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+/* Styling for forms and buttons */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Card styles for car listings */
+.car-list li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.car-list h3 {
+  margin-top: 0;
+}
+
+.car-list button {
+  background-color: #28a745;
+}
+
+.car-list button:hover {
+  background-color: #218838;
+}
+
+/* Admin Dashboard styling */
+.admin-dashboard {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
